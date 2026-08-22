@@ -1,0 +1,33 @@
+{
+  "name": "ai-resume-builder-backend",
+  "version": "1.0.0",
+  "description": "Main Node.js Express backend for AI Resume Analyzer + Job Matching Platform",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "keywords": [
+    "resume",
+    "express",
+    "nodejs",
+    "mongodb",
+    "ai"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.19.0",
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.0",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.3",
+    "mammoth": "^1.12.1",
+    "mongoose": "^8.6.0",
+    "morgan": "^1.10.0",
+    "multer": "^2.2.0",
+    "pdf-parse": "^2.4.5"
+  }
+}
